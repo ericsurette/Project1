@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.8.7/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    
+    <div class="scoreboard">
+        <div id="userbadge" class="badge">user</div>
+        <div id="compbadge" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result"> 
+        <p>Rock beat scissor. You Win!!!!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <span class="rock">ROCK</span>
+        </div>
+
+        <div class="choice" id="p">
+                <span class="paper">PAPER</span>
+            </div>
+
+            <div class="choice" id="s">
+                    <span class="scissor">SCISSOR</span>
+                </div>
+    </div>
+
+    <p id="action-message">Make Your Move</p>
+
+    
+
+<script src="app.js" charset="utf-8"></script>
+    
+</body>
+</html>
